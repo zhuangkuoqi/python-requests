@@ -19,7 +19,7 @@ def getImgUrlList(url,params):
         result_list_img_src[imgname] = result_src
     return result_list_img_src
 
-
+#这是修改后的内容，………………………………………………
 def downloadImg(result_list_img_src,dir):
 
     for imgkey in result_list_img_src:
